@@ -1,0 +1,107 @@
+<html lang="es">
+
+<head>
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Home | Apeperia</title>
+    <link href="../css/reset.css" rel="stylesheet">
+    <link href="../css/header.css" rel="stylesheet">
+
+    <link href="../css/productos/agregar__producto/agregar_producto_formulario.css" rel="stylesheet">
+    <link href="../css/productos/agregar__producto/section__contenedor_formulario.css" rel="stylesheet">
+
+    <link href="../css/footer/footer.css" rel="stylesheet">
+    <link href="../css/footer/footer__contacto__menu.css" rel="stylesheet">
+    <link href="../css/footer/footer__final.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="contenido__busqueda">
+
+            <a class="enlaceprincipal" href="../index.html">
+
+                <div class="imagen_logo"></div>
+                <div class="texto__alura">Alura</div>
+                <div class="texto__geek">Geek</div>
+            </a>
+            <form action="#" class="busqueda__formulario">
+                <input type="text" class="caja__busqueda" placeholder="¿Que Deseas Buscar?">
+                <button type="submit" class="boton__busqueda"></button>
+            </form>
+        </div>
+    </header>
+    <main>
+
+        <section class="section__agregar_producto">
+            <div class="contenedor__items">
+                <p class="indicacion">Agregar Un Nuevo Producto</p>
+                <form class="formulario__agregar_producto" action="#">
+
+                    <label for="url" class="caja">
+                        <p>Url Imagen</p>
+                        <input type="text" id="url" class="input__caja">
+                    </label>
+
+                    <label for="categoria" class="caja">
+                        <p>Categoria</p>
+                        <input type="text" id="categoria" class="input__caja">
+                    </label>
+
+                    <label for="nombre" class="caja">
+                        <p>Nombre Producto</p>
+                        <input type="text" id="nombre" class="input__caja">
+                    </label>
+
+                    <textarea class="input__caja margen__inferior" placeholder="Descripcion del producto" id="descripcion"></textarea>
+
+                    <button type="submit" class="boton btn_formulario_agregar_producto">Enviar Mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contacto_menu">
+            <div class="logo__pagina">
+                <div class="imagen_logo"></div>
+                <div class="texto__alura">Alura</div>
+                <div class="texto__geek">Geek</div>
+            </div>
+            <div class="opciones__menu">
+                <ul class="lista__menu">
+                    <li class="item__menu"><a href="#">Quienes Somos</a></li>
+                    <li class="item__menu"><a href="#">Politica de Privacidad</a></li>
+                    <li class="item__menu"><a href="#">Programa De Fidelidada</a></li>
+                    <li class="item__menu"><a href="#">Nuestras Tiendas</a></li>
+                    <li class="item__menu"><a href="#">Quiero Ser Franquiciado</a></li>
+                    <li class="item__menu"><a href="#">Anuncie Aqui</a></li>
+                </ul>
+            </div>
+            <div class="contacto__contenedor">
+                <p class="contacto__indicacion">Hable Con Nosotros</p>
+                <form class="contacto__formulario" action="#">
+
+                    <label for="nombre" class="caja__nombre">
+                        <p>Nombre</p>
+                        <input type="text" id="nombre" class="input__nombre">
+                    </label>
+
+                    <textarea class="contacto__mensaje" placeholder="Escribe Tu Mensaje"></textarea>
+                    <button type="submit" class="contacto__boton_confirmacion">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="footer_final">
+            <p>Desarrollado por Fulana de Tal</p>
+            <p>&copy; 2022</p>
+        </div>
+    </footer>
+    <script src="../js/index/validarbusqueda.js"></script>
+    <script src="../js/index/formulario_mensaje_opinion.js"></script>
+    <script src="../js/productos/agregar_productos/validaciones_formulario.js"></script>
+</body>
+
+</html>

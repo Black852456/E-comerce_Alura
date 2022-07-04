@@ -1,0 +1,25 @@
+/*SECCION DE IMAGENES DE CONSOLAS*/
+
+.control {
+    background-image: url(../../img/consolas/control.png);
+}
+
+.consola_control {
+    background-image: url(../../img/consolas/consola_control.png);
+}
+
+.consola_nintento {
+    background-image: url(../../img/consolas/consola_nintento.png);
+}
+
+.controles_switch {
+    background-image: url(../../img/consolas/controles_switch.png);
+}
+
+.consola_black {
+    background-image: url(../../img/consolas/niidea.png);
+}
+
+.game_boy {
+    background-image: url(../../img/consolas/gameboy.png);
+}

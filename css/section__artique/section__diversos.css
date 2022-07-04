@@ -1,0 +1,25 @@
+/*SECCION DE DIVERSOS*/
+
+.camisa_atari {
+    background-image: url(../../img/diversos/camisa_atari.png);
+}
+
+.camisa_snens {
+    background-image: url(../../img/diversos/camisa_snes.png);
+}
+
+.juguete {
+    background-image: url(../../img/diversos/juguete.png);
+}
+
+.relog {
+    background-image: url(../../img/diversos/relog.png);
+}
+
+.realidad_virtual {
+    background-image: url(../../img/diversos/realidad_virtual.png);
+}
+
+.peluche_pikachu {
+    background-image: url(../../img/diversos/peluche_pikachu.png);
+}

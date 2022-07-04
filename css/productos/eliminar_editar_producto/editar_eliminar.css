@@ -1,0 +1,31 @@
+.contenedor_imagenes {
+    position: relative;
+}
+
+.cuadro {
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: inherit;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.descripcion__producto {
+    margin: .5rem 1rem;
+}
+
+.eliminar {
+    background-image: url(../../../img/subItems_Productos/eliminar.png);
+    position: absolute;
+    left: 60%;
+    top: 10%;
+}
+
+.editar {
+    background-image: url(../../../img/subItems_Productos/editar.png);
+    position: absolute;
+    left: 80%;
+    top: 10%;
+}

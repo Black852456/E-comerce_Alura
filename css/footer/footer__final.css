@@ -1,0 +1,13 @@
+.footer_final {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    text-align: center;
+    padding: 2rem 0rem;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    /* Preto/100% */
+    color: #464646;
+}

@@ -1,0 +1,37 @@
+main {
+    background: #e5e5e5;
+    padding: 3rem 0rem;
+}
+
+.section__agregar_producto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario__login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caja__formulario {
+    border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-bottom: 2px solid #2A7AE4;
+    padding: 1rem 6rem;
+    width: 20rem;
+    height: 3rem;
+    font-size: 1rem;
+    padding: .5rem;
+    margin-bottom: .9rem;
+    color: #a2a2a2;
+}
+
+@media screen and (max-width:375px) {
+    .section__login {
+        height: 30vh;
+    }
+}
